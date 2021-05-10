@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dengue Fever in Peru</title>
+<link href="css/leaflet.css" type="text/css" rel=stylesheet>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+    
+</head>
+<body>
+    
+<div id="map"></div>
+
+<div class="menuHeader">Exploring Dengue Fever in Peru</div>
+<button class="collapsible">Using this map</button>
+<div class="content">
+  <p>Use the slider in the lower left-hand corner to select a year you would like informatin about, Click on any circle to see the name of the district and how many cases of dengue fever were reported during the respective year.</p>
+</div>
+<button class="collapsible">What is Dengue?</button>
+<div class="content">
+  <p>Dengue fever is a viral infection closely related to the West Nile Virus and Yellow Fever. An estimated 400 million dengue infections occur worldwide each year, with about 96 million resulting in illness. High risk areas are the tropical areas of the world, and in our case, Perú.</p>
+</div>
+<button class="collapsible">Symptoms</button>
+<div class="content">
+  <p>Symptoms of dengue include: sudden high fever, severe headaches, pain behind the eyes, joint and muscle pain, fatigue, nausea, vomiting, skin rash, milad bleeing and easy bruising.</p>
+</div>
+<button class="collapsible">Causes</button>
+<div class="content">
+  <p>Dengue fever is transmitted by the bite of an Aedes mosquito infected with a dengue virus. The mosquito becomes infected when it bites a person with dengue virus in their blood. It can’t be spread directly from one person to another person.</p>
+</div>
+<button class="collapsible">What does El Niño have to do with this?</button>
+<div class="content">
+  <p>During El Niño years, standing water and flooding are more prevalant. This creates a favorable habitat for the mosquitos that spread the virus. Can you estimate which years are El Niño years based on the map?</p>
+</div>
+<button class="collapsible">Sources and further reading</button>
+<div class="content">
+  <p><b>Sources cited:</b><p>“Índice Costero El Niño (ICEN).” Instituto del Mar del Perú, 2012. http://www.imarpe.pe/imarpe/</p><p>Centro Nacional de Epidemiologia, Prevención y Control de Enfermedades – MINSA, 2017</p>
+</div>  
+    
+<!--<div id="bibliography" style="background: beige;"><b>Sources cited:</b><p>“Índice Costero El Niño (ICEN).” Instituto del Mar del Perú, 2012. http://www.imarpe.pe/imarpe/</p><p>Centro Nacional de Epidemiologia, Prevención y Control de Enfermedades – MINSA, 2017</p>
+</div>  this is the code for a separate bibliography box, not included in the dropdown-->
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/main.js"></script>
+<script src="data/dengueData.js"></script>
+</body>
+</html>
